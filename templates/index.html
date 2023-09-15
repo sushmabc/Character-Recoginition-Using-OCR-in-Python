@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Character Recognition Using OCR</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="head"><h1>Character Recognition Using OCR</h1></div>
+    <div class="container">
+        <form method="POST" enctype="multipart/form-data">
+            <label for="file-input">Insert file in the format f (.jpg, .jpeg, .png, .pdf, .docx)</label>
+            <input type="file" name="file" id="file-input" accept=".jpg, .jpeg, .png, .pdf, .docx">
+            <input type="submit" value="Recognize Text">
+        </form>
+    </div>
+</body>
+</html>

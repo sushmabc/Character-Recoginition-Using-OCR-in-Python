@@ -1,0 +1,40 @@
+/* Center the content vertically and horizontally */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    background-color: #f0f0f0; /* Background color for the entire page */
+}
+
+/* Style the form */
+form {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the file input */
+input[type="file"] {
+    margin: 10px 0;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #0074e4; /* Blue color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+    background-color: #0057b3; /* Darker blue color on hover */
+}

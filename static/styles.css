@@ -1,0 +1,60 @@
+/* Center the content vertically and horizontally */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto ; /* Full viewport height */
+    margin: 0;
+    background-color: #e7f1f5; /* Background color for the entire page */
+}
+.pre-style, .pre-style * {
+    all: revert;
+}
+/* Style the form container */
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 550px;
+    height: 190px;
+}
+.rescontainer {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:60%;
+    overflow: auto;
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+}
+/* Style the file input */
+input[type="file"] {
+    margin: 10px 0;
+    width: 91%;
+    padding: 20px; /* Increase padding to make it larger */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #ff4444; /* Red color */
+    color: #fff;
+    padding: 20px; /* Increase padding to make it larger */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Make button width 100% */
+}
